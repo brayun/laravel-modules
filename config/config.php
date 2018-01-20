@@ -143,7 +143,7 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'brayun',
         'author' => [
             'name' => 'Ethan',
             'email' => 'ethan@brayun.com',
