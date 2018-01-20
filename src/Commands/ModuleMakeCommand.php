@@ -40,6 +40,8 @@ class ModuleMakeCommand extends Command
                 ->setPlain($this->option('plain'))
                 ->generate();
         }
+
+        exec('composer dumpautoload');
     }
 
     /**
