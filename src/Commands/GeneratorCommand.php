@@ -92,6 +92,8 @@ abstract class GeneratorCommand extends Command
 
         $namespace .= '\\' . $extra;
 
+        $namespace = str_replace('src/', '', $namespace);
+
         $namespace = str_replace('/', '\\', $namespace);
 
         return trim($namespace, '\\');
