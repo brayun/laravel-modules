@@ -24,7 +24,7 @@ return [
 
     'stubs' => [
         'enabled' => true,
-        'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+        'path' => base_path() . '/vendor/brayun/laravel-modules/src/Commands/stubs',
         'files' => [
             'start' => 'start.php',
             'routes' => 'route/routes.php',
